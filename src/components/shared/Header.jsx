@@ -9,7 +9,7 @@ const Header = () => {
         },
         {
           name: "About",
-          path: "/about",
+          path: "/#about",
         },
         {
           name: "Services",
@@ -33,7 +33,7 @@ const Header = () => {
                 <img src={logo} alt="logo" />
             
              
-             <ul className="hidden md:flex gap-12 p-3 py-6 mx-10 mt-5 text-white ">
+             <ul className="hidden md:flex gap-12 p-3 py-6 mx-10 mt-5 text-white font-semibold">
           {menu.map((item, index) => {
             return (
               <li className="mx-auto" key={index}>

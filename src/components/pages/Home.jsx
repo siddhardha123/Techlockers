@@ -185,6 +185,9 @@ const Home = () => {
           </div>
       </div>
       <DoYouHave/>
+      <br />
+      <br />
+      
 
         
         
